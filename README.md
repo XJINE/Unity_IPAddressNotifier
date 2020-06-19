@@ -10,12 +10,6 @@ You can import this asset from UnityPackage.
 
 - [IPAddressNotifier.unitypackage](https://github.com/XJINE/Unity_IPAddressNotifier/blob/master/IPAddressNotifier.unitypackage)
 
-### Dependencies
-
-You have to import following assets to use this asset.
-
-- [Unity_IPAddressNotifier](https://github.com/XJINE/Unity_IPAddressNotifier)
-
 ## How to Use
 
 Add some observers from Inspector and call the ``Notify`` to notify IPAddresses.
