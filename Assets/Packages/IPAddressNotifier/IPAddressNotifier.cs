@@ -69,13 +69,23 @@ public class IPAddressNotifier : MonoBehaviour
 
     #region Field
 
+    public bool notifyOnStart = true;
+
     public List<IPAddressObserver> observers;
 
     #endregion Field
 
     #region Method
 
-    public void Notify()
+    public virtual void Start()
+    {
+        if (this.notifyOnStart)
+        {
+            Notify();
+        }
+    }
+
+    public virtual void Notify()
     {
         Notify(this.observers);
     }
