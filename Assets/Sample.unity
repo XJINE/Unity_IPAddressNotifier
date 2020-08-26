@@ -360,8 +360,8 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
-  - filterIPv4: 1
-    filterIPv6: 0
+  - filterIPv4: 0
+    filterIPv6: 1
     filterStartsWith: 
     filterEndsWith: 
     filterRegex: 

@@ -8,13 +8,13 @@ public class Sample : MonoBehaviour
         GameObject.FindObjectOfType<IPAddressNotifier>().Notify();
     }
 
-    public void IPAddressEventHandler1(IPAddress address)
+    public void IPAddressEventHandler1(IPAddress ipAddress)
     {
-        Debug.Log("EventHandler1 : " + address);
+        Debug.Log("EventHandler1 : " + ipAddress);
     }
 
-    public void IPAddressEventHandler2(IPAddress address)
+    public void IPAddressEventHandler2(IPAddress ipAddress)
     {
-        Debug.Log("EventHandler2 : " + address);
+        Debug.Log("EventHandler2 : " + ipAddress);
     }
 }
